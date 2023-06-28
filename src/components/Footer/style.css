@@ -1,0 +1,72 @@
+
+footer{
+    background-color: #030303;
+    text-align: center;
+    color: #ADADAD;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contactme {
+    display: flex;
+    flex-direction: row;
+}
+
+.linkedin, .resume {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.linkedin a {
+    font-size: 14px;
+    margin-left: 0 0 0 10px;
+    text-decoration: none;
+    border: 1px solid green;
+    border-radius: 10px;
+    padding: 2px;
+    background-color: aqua;
+    color: black;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.linkedin img {
+    width: 20px;
+    margin-right: 3px;
+}
+
+
+.resume a {
+    font-size: 14px;
+    margin-left: 0 0 0 10px;
+    text-decoration: none;
+    border: 1px solid green;
+    border-radius: 10px;
+    padding: 2px;
+    background-color: aqua;
+    color: black;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.resume img {
+    width: 17px;
+    margin-right: 3px;
+}
+
+.grow { 
+    transition: all .2s ease-in-out; 
+    }
+    
+    .grow:hover { 
+    transform: scale(1.1); 
+    }
